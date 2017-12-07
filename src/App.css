@@ -1,0 +1,30 @@
+.App {
+    text-align: center;
+}
+.Header {
+    margin: 16px;
+    font-family: arial, sans-serif;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.button {
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  margin: 8px;
+  padding: 8px;
+}
