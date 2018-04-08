@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import './App.css';
 
 class App extends Component {
   constructor(props) {
@@ -47,6 +47,7 @@ class App extends Component {
                   name="venkiInit"
                   defaultValue={this.state.initialValue}
                   onChange={this.handleChange}
+                  aria-label="Venki"
                 />
               </td>
               <td>{this.state.venki}</td>
@@ -59,6 +60,7 @@ class App extends Component {
                   name="goliInit"
                   defaultValue={this.state.initialValue}
                   onChange={this.handleChange}
+                  aria-label="Goli"
                 />
               </td>
               <td>{this.state.goli}</td>
@@ -71,6 +73,7 @@ class App extends Component {
                   name="nikhilInit"
                   defaultValue={this.state.initialValue}
                   onChange={this.handleChange}
+                  aria-label="Nikhil"
                 />
               </td>
               <td>{this.state.nikhil}</td>
@@ -83,6 +86,7 @@ class App extends Component {
                   name="pinkyInit"
                   defaultValue={this.state.initialValue}
                   onChange={this.handleChange}
+                  aria-label="Pinky"
                 />
               </td>
               <td>{this.state.pinky}</td>
